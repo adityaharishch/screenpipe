@@ -650,12 +650,12 @@ export default function ConnectApps({ handleNextSlide }: ConnectAppsProps) {
       if (data.url) {
         await openUrl(data.url);
       } else {
-        await openUrl("https://screenpi.pe/billing");
+        await openUrl("https://screenpipe.com/billing");
         return;
       }
     } catch (error) {
       console.error("failed to start onboarding checkout:", error);
-      await openUrl("https://screenpi.pe/billing");
+      await openUrl("https://screenpipe.com/billing");
       return;
     }
 

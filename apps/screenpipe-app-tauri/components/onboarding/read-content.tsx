@@ -11,7 +11,7 @@ import { listen } from "@tauri-apps/api/event";
 import posthog from "posthog-js";
 import { localFetch } from "@/lib/api";
 
-const WELCOME_URL = "https://screenpi.pe/welcome";
+const WELCOME_URL = "https://screenpipe.com/welcome";
 // minimum seconds before Continue is enabled (so screenpipe has time to capture)
 const MIN_READ_SECONDS = 15;
 // auto-advance after this many seconds (don't block forever)
@@ -192,7 +192,7 @@ export default function ReadContent({ handleNextSlide }: ReadContentProps) {
             {opened ? "open again" : "open in browser"}
           </button>
           <p className="font-mono text-xs text-center text-muted-foreground">
-            screenpi.pe/welcome
+            screenpipe.com/welcome
           </p>
         </div>
 

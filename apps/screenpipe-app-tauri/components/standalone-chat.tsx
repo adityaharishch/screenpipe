@@ -6516,7 +6516,7 @@ export function StandaloneChat({
                   onClick={() => {
                     if (!isPro) {
                       setAppFilterOpen(false);
-                      openUrl("https://screenpi.pe/onboarding");
+                      openUrl("https://screenpipe.com/onboarding");
                       return;
                     }
                     updateSettings({ piPrivacyFilter: !privacyOn });
